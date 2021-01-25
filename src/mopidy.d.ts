@@ -81,7 +81,7 @@ declare class Mopidy {
   getVersion(): Promise<string>;
 }
 
-declare namespace mopidy {
+export declare namespace mopidy {
   type ValueOf<T> = T[keyof T];
   type URI = string;
 
